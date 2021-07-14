@@ -6,7 +6,7 @@ const {
   INCORRECT_OTP_ERR,
   ACCESS_DENIED_ERR,
 } = require("../errors");
-const { checkPassword, hashPassword } = require("../utils/password.util");
+//const { checkPassword, hashPassword } = require("../utils/password.util");
 const { createJwtToken } = require("../utils/token.util");
 const { generateOTP, fast2sms } = require("../utils/otp.util");
 
