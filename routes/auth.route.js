@@ -12,14 +12,9 @@ const {
 
 
 router.post("/register", registerUser);
-
 router.post("/login_with_phone", loginUser);
-
-
 router.post("/verify", verifyOTP);
-
 router.get("/me", checkAuth, fetchCurrentUser);
-
 router.get("/admin", checkAuth, checkAdmin, handleAdmin);
 
 module.exports = router;
