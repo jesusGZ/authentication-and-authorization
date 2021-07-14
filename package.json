@@ -1,0 +1,36 @@
+{
+  "name": "authentication-authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusGZ/authentication-and-authorization.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "node",
+    "authentication",
+    "authorization",
+    "express"
+  ],
+  "author": "Jesus Antonio Garcia Zurita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusGZ/authentication-and-authorization/issues"
+  },
+  "homepage": "https://github.com/jesusGZ/authentication-and-authorization#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-two-sms": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
